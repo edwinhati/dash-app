@@ -12,9 +12,9 @@ from sklearn.tree import DecisionTreeClassifier
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 
 # Import File
-df = pd.read_csv('C:/DSS/venv/DSSFINALPROJECT.csv',sep=',')
-df2 = pd.read_csv('C:/DSS/venv/Cleaned-job.csv',sep=',')
-df3 = pd.read_csv('C:/DSS/venv/Cleaned-poutcome.csv',sep=',')
+df = pd.read_csv('./DSSFINALPROJECT.csv',sep=',')
+df2 = pd.read_csv('./Cleaned-job.csv',sep=',')
+df3 = pd.read_csv('./Cleaned-poutcome.csv',sep=',')
 
 # ============================ df =============================== #
 
