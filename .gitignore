@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local development settings
+.env
+
+# Dash app cache and logs
+.dash-*
+*_cache/
+
+# IDE settings
+.idea/
+
+# Logs
+*.log
+logs/
+
+# Dependency directories
+venv/
+env/
+env.bak/
+
+# Miscellaneous
+*.swp
+.DS_Store
