@@ -8,13 +8,13 @@ WORKDIR /app
 COPY requirements.txt .
 
 # Install the dependencies
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install -r requirements.txt
 
 # Copy the rest of the application files into the container
 COPY . .
 
 # Expose the port that the app will run on
-EXPOSE 8050
+# EXPOSE 8050
 
 # Start the app
 CMD ["python", "app.py"]
